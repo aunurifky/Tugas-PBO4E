@@ -3,6 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package Puskesmas;
+import java.util.ArrayList;
 
 /**
  *
@@ -17,9 +18,9 @@ public class Obat {
     private String satuan;
     private String hargaBeli;
     private String hargaJual;
-    private int sisaObat;
+    private String sisaObat;
 
-    public Obat(String idObat, String caraGuna, String golObat, String dosis, String dosisSatuan, String satuan, String hargaBeli, String hargaJual, int sisaObat) {
+    public Obat(String idObat, String caraGuna, String golObat, String dosis, String dosisSatuan, String satuan, String hargaBeli, String hargaJual, String sisaObat) {
         this.idObat = idObat;
         this.caraGuna = caraGuna;
         this.golObat = golObat;
@@ -95,11 +96,11 @@ public class Obat {
         this.hargaJual = hargaJual;
     }
 
-    public int getSisaObat() {
+     public String getsisaObat() {
         return sisaObat;
     }
 
-    public void setSisaObat(int sisaObat) {
+    public void setsisaObat(String sisaObatl) {
         this.sisaObat = sisaObat;
     }
     
@@ -113,6 +114,7 @@ public class Obat {
         System.out.println("Obat" + hargaBeli);
         System.out.println("Obat" + hargaJual);
         System.out.println("Obat" + sisaObat);
+        
     }
 
     }

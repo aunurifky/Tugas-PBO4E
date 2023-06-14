@@ -3,6 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package Puskesmas;
+import java.util.ArrayList;
 
 /**
  *
@@ -95,13 +96,14 @@ public class Pasien {
         this.username = username;
     }
 
-    public String getPassword() {
+     public String getpassword() {
         return password;
     }
 
-    public void setPassword(String password) {
+    public void setpassword(String password) {
         this.password = password;
     }
+
     public void displayInfo() {
         System.out.println("Pasien" + kodePasien);
         System.out.println("Pasien" + namaLengkap);

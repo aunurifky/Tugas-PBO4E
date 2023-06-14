@@ -3,7 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package Puskesmas;
-
+import java.util.ArrayList;
 /**
  *
  * @author ASUS
@@ -109,14 +109,16 @@ public class Admin {
         this.pendidikan = pendidikan;
     }
 
-    public String getStatusPerkawinan() {
+     public String statusPerkawinan() {
         return statusPerkawinan;
     }
 
-    public void setStatusPerkawinan(String statusPerkawinan) {
+    public void statusPerkawinan(String statusPerkawinan) {
         this.statusPerkawinan = statusPerkawinan;
     }
 
+
+   
     public void displayInfo() {
         System.out.println("Admin" + namaLengkap);
         System.out.println("Admin" + idUser);
@@ -128,6 +130,7 @@ public class Admin {
         System.out.println("Admin" + telepon);
         System.out.println("Admin" + pendidikan);
         System.out.println("Admin" + statusPerkawinan);
+        
     }
 }
 

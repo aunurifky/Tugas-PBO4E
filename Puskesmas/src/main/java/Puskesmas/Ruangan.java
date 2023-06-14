@@ -3,6 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package Puskesmas;
+import java.util.ArrayList;
 
 /**
  *
@@ -11,9 +12,10 @@ package Puskesmas;
 public class Ruangan {
     private String idRuangan;
     private String namaRuangan;
-    private int totalPasien;
+    private String totalPasien;
+    
 
-    public Ruangan(String idRuangan, String namaRuangan, int totalPasien) {
+    public Ruangan(String idRuangan, String namaRuangan) {
         this.idRuangan = idRuangan;
         this.namaRuangan = namaRuangan;
         this.totalPasien = totalPasien;
@@ -35,17 +37,18 @@ public class Ruangan {
         this.namaRuangan = namaRuangan;
     }
 
-    public int getTotalPasien() {
+     public String gettotalPasien() {
         return totalPasien;
     }
 
-    public void setTotalPasien(int totalPasien) {
+    public void settotalPasien(String totalPasien) {
         this.totalPasien = totalPasien;
     }
+
     public void displayInfo() {
         System.out.println("Ruangan" + idRuangan);
         System.out.println("Ruangan" + namaRuangan);
-        System.out.println("Ruangan" + totalPasien);
+         System.out.println("Ruangan" + totalPasien);
     }
         
 }

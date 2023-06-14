@@ -3,6 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package Puskesmas;
+import java.util.ArrayList;
 
 
 
@@ -99,14 +100,17 @@ public class Dokter {
         this.telepon = telepon;
     }
 
-    public String getTanggalMasuk() {
+     public String gettanggalMasuk() {
         return tanggalMasuk;
     }
 
-    public void setTanggalMasuk(String tanggalMasuk) {
-        this.tanggalMasuk = tanggalMasuk;
-        
+    public void settanggalMasuk(String tanggalMasuk) {
+        this.tanggalMasuk = this.tanggalMasuk;
     }
+
+   
+        
+    
         
         public void displayInfo(){
             System.out.println("Kode Dokter : " + kodeDokter);
@@ -118,6 +122,7 @@ public class Dokter {
             System.out.println("Kode Dokter : " + kota);
             System.out.println("Kode Dokter : " + telepon);
             System.out.println("Kode Dokter : " + tanggalMasuk);
+ 
         }
     }
 

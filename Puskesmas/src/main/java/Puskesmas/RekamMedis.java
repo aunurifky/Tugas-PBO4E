@@ -3,6 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package Puskesmas;
+import java.util.ArrayList;
 
 /**
  *
@@ -82,15 +83,15 @@ package Puskesmas;
         return diagnosaDokter;
     }
 
-    public void setDiagnosaDokter(String diagnosaDokter) {
+    public void setdiagnosaDokter(String diagnosaDokter) {
         this.diagnosaDokter = diagnosaDokter;
     }
 
-    public String getKeterangan() {
+    public String getketerangan() {
         return keterangan;
     }
 
-    public void setKeterangan(String keterangan) {
+    public void setketerangan(String keterangan) {
         this.keterangan = keterangan;
     }
     
@@ -101,8 +102,8 @@ package Puskesmas;
         System.out.println("RekamMedis" + jam);
         System.out.println("RekamMedis" + kodePasien);
         System.out.println("RekamMedis" + kodeDokter);
-        System.out.println("RekamMedis" + diagnosaDokter);
         System.out.println("RekamMedis" + keterangan);
+        System.out.println("RekamMedis" + diagnosaDokter);
      }
 
 }  

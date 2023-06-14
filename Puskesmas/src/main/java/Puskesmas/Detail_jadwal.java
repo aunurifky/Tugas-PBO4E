@@ -3,6 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package Puskesmas;
+import java.util.ArrayList;
 
 /**
  *
@@ -35,13 +36,15 @@ public class Detail_jadwal {
         this.kodePasien = kodePasien;
     }
 
-    public String getTanggal() {
+     public String gettanggal() {
         return tanggal;
     }
 
-    public void setTanggal(String tanggal) {
+    public void settanggal(String tanggal) {
         this.tanggal = tanggal;
     }
+   
+    
     
     public void displayInfo() {
         System.out.println("Detail_jadwal" + idJadwal);
